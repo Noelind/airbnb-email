@@ -1,1 +1,26 @@
-xmas thank you 
+<mjml>
+<mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-all padding="0"/>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+
+
+  <!-- HEADER -->
+    <mj-section>
+      <mj-column>
+
+        <mj-image width="100px" src="/assets/img/logo-small.png"></mj-image>
+
+        <mj-divider border-color="#F45E43"></mj-divider>
+
+        <mj-text font-size="20px" color="#F45E43" font-family="helvetica">Hello World</mj-text>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
