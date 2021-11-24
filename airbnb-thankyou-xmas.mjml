@@ -35,6 +35,13 @@
       </mj-column>
     </mj-section>
 
+
+    <mj-section padding="20px 0px">
+      <mj-column>
+        <mj-image src="https://noelind.github.io/airbnb-email/assets/house.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+
     <mj-section padding="0px 0px">
       <mj-column>
         <mj-text font-size="20px" padding="40px 20px 20px 20px">Dear Resident,</mj-text>
