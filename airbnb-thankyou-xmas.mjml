@@ -2,11 +2,11 @@
   <mj-head>
     <mj-font name="futura-pt" href="https://use.typekit.net/wdk0dfz.css" />
     <mj-attributes>
-    <mj-body background-color="white"/>
+      <mj-body background-color="white" />
       <mj-text padding="0" />
       <mj-class name="blue" color="blue" />
       <mj-class name="big" font-size="20px" />
-      <mj-class name="header" padding="10px 0" border-bottom="1px solid #cecece" ; />
+      <mj-class name="header" padding="10px 0"; />
       <mj-class name="header-logo"></mj-class>
       <mj-class name="body" padding="0 20px" />
       <mj-class name="greeting" font-size="20px" font-weight="500" padding-bottom="15px" />
@@ -28,11 +28,7 @@
 
 
     <!-- HEADER -->
-    <mj-section mj-class="header">
-      <mj-column>
-        <mj-image mj-class="header-logo" src="https://noelind.github.io/airbnb-email/assets/ritasamenities_logo2.png"></mj-image>
-      </mj-column>
-    </mj-section>
+
     <!-- 
     <mj-section padding="0px 0px">
       <mj-column>
@@ -40,8 +36,20 @@
       </mj-column>
     </mj-section> -->
 
+    <mj-hero background-url="https://noelind.github.io/airbnb-email/assets/xmas-hero2.png" background-color="#2a3448">
+    <mj-image mj-class="header-logo" src="https://noelind.github.io/airbnb-email/assets/ritasamenities_logo_white.png"></mj-image>
+      <mj-text color="#ffffff" align="center" font-size="35px" line-height="500px" font-weight="500">
+        Dear Thomas,
+      </mj-text>
 
-
+      </mj-text>
+    </mj-hero>
+<mj-section mj-class="body" >
+      <mj-column padding="50px 0px 0px 0px">
+        <mj-text mj-class="greeting">Dear Thomas,</mj-text>
+        <mj-text mj-class="wish">We would like to thank you for choosing to stay with Gennadi Villas this summer season. We hope you are safe among the ongoing coronavirus crisis and would like to extend our Christmas wishes to you and your loved ones. See you next year!</mj-text>
+      </mj-column>
+    </mj-section>
 
     <mj-section mj-class="body">
       <mj-column>
