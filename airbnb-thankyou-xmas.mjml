@@ -2,6 +2,7 @@
   <mj-head>
     <mj-font name="futura-pt" href="https://use.typekit.net/wdk0dfz.css" />
     <mj-attributes>
+    <mj-body background-color="white"/>
       <mj-text padding="0" />
       <mj-class name="blue" color="blue" />
       <mj-class name="big" font-size="20px" />
