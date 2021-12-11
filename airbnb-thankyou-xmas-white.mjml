@@ -5,22 +5,22 @@
     <mj-breakpoint width="590px" />
     <mj-attributes>
       <mj-all padding="0" />
-      <mj-body background-color="#074009" />
+      <mj-body background-color="white" />
       <mj-text padding="0" />
       <mj-button border-radius="0" />
       <mj-class name="header" padding="10px 0" ; />
       <mj-class name="header-logo"></mj-class>
-      <mj-class name="body" padding="0 20px" background-color="#074009" />
-      <mj-class name="greeting" font-size="20px" font-weight="500" padding-bottom="15px" color="white" />
-      <mj-class name="wish" font-size="16px" line-height="30px" color="white" />
+      <mj-class name="body" padding="0 20px" background-color="white" />
+      <mj-class name="greeting" font-size="20px" font-weight="500" padding-bottom="15px" color="black" />
+      <mj-class name="wish" font-size="16px" line-height="30px" color="black" />
       <mj-class name="closing-section" padding-top="50px" />
-      <mj-class name="closing-text" align="center" font-size="18px" color="white" />
-      <mj-class name="closing-team" align="center" font-size="18px" padding-top="10px" color="white" />
+      <mj-class name="closing-text" align="center" font-size="18px" color="black" />
+      <mj-class name="closing-team" align="center" font-size="18px" padding-top="10px" color="black" />
       <mj-all padding="0" font-family="roboto, Arial" />
     </mj-attributes>
     <mj-style>
       .divider div {
-        background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(7, 64, 9, 1) 100%);
+        background: radial-gradient(circle, rgba(255, 56, 92, 1) 0%, rgba(255, 255, 255, 1) 100%);
         color: #ffffff !important;
         font-size: 1px !important;
       }
@@ -31,37 +31,45 @@
 
     <!-- HEADER -->
 
-    <!-- 
-    <mj-section padding="20px 0px" background-color="#074009">
+
+    <mj-section padding="20px 20px">
+      <mj-group>
+
+        <mj-column vertical-align="middle" width="50%">
+          <mj-image align="left" width="141px" src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/ritas-amenities-logo-black-140.png" alt="Ritas Amenities Logo" />
+          </mj-image>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-text align="right">
+            <a href="https://www.airbnb.com/users/show/108284092and" target="_blank"><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/airbnb-small.png" alt="Ritas Amenities Airbnb"></a><span style="color:white;">----</span><a href="https://www.airbnb.com/users/show/108284092and" target="_blank"><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/booking.com small.png" alt="Ritas Amenities Booking.com"></a>
+          </mj-text>
+
+
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body" padding-bottom="0px">
       <mj-column>
-        <mj-image width="109px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-white1.png" alt="Ritas Amenities Logo" />
-        </mj-image>
+        <mj-image  src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/happy-holidays.png" alt="" />
       </mj-column>
-    </mj-section> -->
 
-    <mj-hero background-url="https://noelind.github.io/airbnb-email/assets/xmas-hero-ritas3.png" background-color="#074009">
+    </mj-section>
 
-      <mj-text mj-class="body" color="#ffffff" align="center" font-size="35px" line-height="150px" font-weight="500">
-        <br><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/ritas-amenities-logo-white-140.png" alt="">
-      </mj-text>
-      <mj-text mj-class="body" color="#ffffff" align="left" font-size="35px" font-weight="500">
-        Dear [Guest Name],
-      </mj-text>
-    </mj-hero>
 
     <mj-section mj-class="body" padding-top="50px" padding-bottom="20px">
       <mj-column>
-        <mj-text mj-class="wish">We would like to thank you for choosing to stay with Ritas Amenities this summer season. We hope you are safe among the ongoing coronavirus crisis and would like to extend our Christmas wishes to you and your loved ones. See you next year!<br><br></mj-text>
-        <mj-text mj-class="wish">It would be an immense pleasure if you ever considered us for your next holiday. Feel free to email us personally to arrange your next booking:</mj-text>
+        <mj-text mj-class="wish" font-weight="700" color="#FF385C" font-size="25px">Dear Guest Name,<br><br></mj-text>
+        <mj-text mj-class="wish">As the holiday season is upon us, we find ourselves reflecting on the past year and those who have helped to shape our business. We hope that this year has been just as memorable for you and your loved ones. We look forward to accomodating you in the years to come!<br><br></mj-text>
+        <mj-text mj-class="wish">It would be an immense pleasure if you considered us for your next holiday. Feel free to email us personally to arrange your booking:</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section mj-class="body">
       <mj-column padding="0px 0px 20px 0px">
-        <mj-button width="270px" href="mailto:ritas.amenities@gmail.com" background-color="white" color="black" font-size="16px">ritas.amenities@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span></mj-button>
+        <mj-button width="270px" href="mailto:ritas.amenities@gmail.com" border-radius="25px" background-color="#FF385C" color="white" font-size="16px">ritas.amenities@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span></mj-button>
       </mj-column>
       <mj-column padding="0px 0px 20px 0px">
-        <mj-button width="270px" href="mailto:georgeritas12@gmail.com" background-color="white" color="black" font-size="16px">georgeritas12@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span></mj-button>
+        <mj-button width="270px" href="mailto:georgeritas12@gmail.com" border-radius="25px"  background-color="#FF385C" color="white" font-size="16px">georgeritas12@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span></mj-button>
       </mj-column>
     </mj-section>
 
@@ -80,35 +88,32 @@
 
     <mj-section mj-class="body">
       <mj-column padding="30px 0px 0px 0px">
-        <mj-text mj-class="wish" font-size="20px" align="center">Visit our <a href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" style="text-decoration:underline; color:white">booking.com</a> and <a href="https://www.airbnb.com/users/show/108284092and" style="text-decoration:underline; color:white">Airbnb</a> pages to see our beautiful properties!<br><br></mj-text>
+        <mj-text mj-class="wish" font-size="18px" align="center">Visit our <a href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" style="text-decoration:none; color:#FF385C">booking.com</a> and <a href="https://www.airbnb.com/users/show/108284092and" style="text-decoration:none; color:#FF385C">Airbnb</a> pages to see our beautiful properties!<br><br></mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section mj-class="body">
       <mj-column padding="0px 0px 20px 0px">
         <mj-image href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/306453125.jpg?k=386c3caa4329d7ad63d059dd70607d9f7afbe28adc24b402e866813be0c4aa31&o=&hp=1" alt="" />
-        <mj-text padding="0px 0px 20px 0px" font-style="italic" color="white" align="center" font-size="16px">Ritas Amenities Gennadi</mj-text>
+        <mj-text padding="0px 0px 20px 0px" font-style="italic" color="black" align="center" font-size="16px">Ritas Amenities Gennadi</mj-text>
         <mj-image href="https://www.airbnb.com/users/show/108284092and" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://a0.muscache.com/im/pictures/dda14408-75a7-4fa1-a5ac-252d1a752a3e.jpg?im_w=1440" alt="" />
-        <mj-text padding="0px 0px 20px 0px" font-style="italic" color="white" align="center" font-size="16px">Ritas Amenities Modern City House</mj-text>
+        <mj-text padding="0px 0px 20px 0px" font-style="italic" color="black" align="center" font-size="16px">Ritas Amenities Modern City House</mj-text>
       </mj-column>
 
     </mj-section>
 
-
-
-
-    <mj-section padding-bottom="40px">
+    <!-- <mj-section padding-bottom="40px">
       <mj-column>
         <mj-spacer css-class="divider" height="1px" />
       </mj-column>
-    </mj-section>
+    </mj-section> -->
 
     <mj-section>
       <mj-column vertical-align="middle" padding-bottom="40px">
-        <mj-image width="127px" src="https://noelind.github.io/airbnb-email/assets/airbnb.png" alt="" href="https://www.airbnb.com/users/show/108284092and" />
+        <mj-image width="127px" src="https://noelind.github.io/airbnb-email/assets/airbnb-og.png" alt="" href="https://www.airbnb.com/users/show/108284092and" />
       </mj-column>
       <mj-column vertical-align="middle" padding-bottom="40px">
-        <mj-image width="168px" src="https://noelind.github.io/airbnb-email/assets/booking.com.png" alt="" href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" />
+        <mj-image width="168px" src="https://noelind.github.io/airbnb-email/assets/booking.com-og.png" alt="" href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" />
       </mj-column>
     </mj-section>
   </mj-body>

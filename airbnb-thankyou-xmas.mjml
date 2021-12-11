@@ -51,8 +51,8 @@
 
     <mj-section mj-class="body" padding-top="50px" padding-bottom="20px">
       <mj-column>
-        <mj-text mj-class="wish">We would like to thank you for choosing to stay with Ritas Amenities this summer season. We hope you are safe among the ongoing coronavirus crisis and would like to extend our Christmas wishes to you and your loved ones. See you next year!<br><br></mj-text>
-        <mj-text mj-class="wish">It would be an immense pleasure if you ever considered us for your next holiday. Feel free to email us personally to arrange your next booking:</mj-text>
+         <mj-text mj-class="wish">As the holiday season is upon us, we find ourselves reflecting on the past year and those who have helped to shape our business. We hope that this year has been just as memorable for you and your loved ones. We look forward to accomodating you in the years to come!<br><br></mj-text>
+        <mj-text mj-class="wish">It would be an immense pleasure if you considered us for your next holiday. Feel free to email us personally to arrange your booking:</mj-text>
       </mj-column>
     </mj-section>
 
@@ -92,15 +92,6 @@
         <mj-text padding="0px 0px 20px 0px" font-style="italic" color="white" align="center" font-size="16px">Ritas Amenities Modern City House</mj-text>
       </mj-column>
 
-    </mj-section>
-
-
-
-
-    <mj-section padding-bottom="40px">
-      <mj-column>
-        <mj-spacer css-class="divider" height="1px" />
-      </mj-column>
     </mj-section>
 
     <mj-section>
