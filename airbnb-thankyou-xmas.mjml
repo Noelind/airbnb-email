@@ -36,7 +36,7 @@
       </mj-column>
     </mj-section> -->
 
-    <mj-hero background-url="https://noelind.github.io/airbnb-email/assets/xmas-hero2.png" background-color="#2a3448">
+    <mj-hero background-url="https://noelind.github.io/airbnb-email/assets/xmas-hero-ritas.png" background-color="#2a3448">
     <mj-image mj-class="header-logo" src="https://noelind.github.io/airbnb-email/assets/ritasamenities_logo_white.png"></mj-image>
       <mj-text color="#ffffff" align="center" font-size="35px" line-height="500px" font-weight="500">
         Dear Thomas,
