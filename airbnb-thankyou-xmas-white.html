@@ -70,8 +70,30 @@
         background: radial-gradient(circle, rgba(255, 56, 92, 1) 0%, rgba(255, 255, 255, 1) 100%);
         color: #ffffff !important;
         font-size: 1px !important;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .logo-white {
+          display:block;
+        }
+
+        .logo-black {
+          display:none;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .logo-white {
+          display:none;
+        }
+
+        .logo-black {
+          display:block;
+        }
       }</style>
-        <!-- <mj-font name="futura-pt" href="https://use.typekit.net/wdk0dfz.css" /> -->
+        <meta name="color-scheme" content="light">
+      <meta name="supported-color-schemes" content="light">
+<!-- <mj-font name="futura-pt" href="https://use.typekit.net/wdk0dfz.css" /> -->
       </head>
       <body style="word-spacing:normal;background-color:white;">
         
@@ -119,7 +141,7 @@
           
               <tr>
                 <td
-                   align="left" style="font-size:0px;padding:0;word-break:break-word;"
+                   align="left" class="logo-black" style="font-size:0px;padding:0;word-break:break-word;"
                 >
                   
       <table
@@ -130,7 +152,31 @@
             <td  style="width:141px;">
               
       <img
-         alt="Ritas Amenities Logo" height="auto" src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/ritas-amenities-logo-black-140.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="141"
+         alt="Ritas Amenities Logo" height="auto" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-140.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="141"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" class="logo-white" style="font-size:0px;padding:0;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style="width:141px;">
+              
+      <img
+         alt="Ritas Amenities Logo" height="auto" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-140.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="141"
       />
     
             </td>
@@ -176,7 +222,7 @@
                   
       <div
          style="font-family:roboto, Arial;font-size:13px;line-height:1;text-align:right;color:#000000;"
-      ><a href="https://www.airbnb.com/users/show/108284092and" target="_blank"><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/airbnb-small.png" alt="Ritas Amenities Airbnb"></a><span style="color:white;">----</span><a href="https://www.airbnb.com/users/show/108284092and" target="_blank"><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/booking.com small.png" alt="Ritas Amenities Booking.com"></a></div>
+      ><a href="https://www.airbnb.com/users/show/108284092and" target="_blank"><img src="https://noelind.github.io/airbnb-email/assets/airbnb-small.png" alt="Ritas Amenities Airbnb" style="padding-right:20px"></a><a href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" target="_blank"><img src="https://noelind.github.io/airbnb-email/assets/booking.comsmall.png" alt="Ritas Amenities Booking.com"></a></div>
     
                 </td>
               </tr>
@@ -247,7 +293,7 @@
             <td  style="width:560px;">
               
       <img
-         alt="" height="auto" src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/happy-holidays.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="560"
+         alt="Happy Holidays!" height="auto" src="https://noelind.github.io/airbnb-email/assets/happy-holidays.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="560"
       />
     
             </td>
@@ -408,9 +454,9 @@
                align="center" bgcolor="#FF385C" role="presentation" style="border:none;border-radius:25px;cursor:auto;mso-padding-alt:10px 25px;background:#FF385C;" valign="middle"
             >
               <a
-                 href="mailto:ritas.amenities@gmail.com" style="display:inline-block;width:220px;background:#FF385C;color:white;font-family:roboto, Arial;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:25px;" target="_blank"
+                 href="mailto:ritas.amenities@gmail.com?subject=Booking Enquiry" style="display:inline-block;width:220px;background:#FF385C;color:white;font-family:roboto, Arial;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:25px;" target="_blank"
               >
-                ritas.amenities@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span>
+                ritas.amenities@gmail.com
               </a>
             </td>
           </tr>
@@ -462,9 +508,9 @@
                align="center" bgcolor="#FF385C" role="presentation" style="border:none;border-radius:25px;cursor:auto;mso-padding-alt:10px 25px;background:#FF385C;" valign="middle"
             >
               <a
-                 href="mailto:georgeritas12@gmail.com" style="display:inline-block;width:220px;background:#FF385C;color:white;font-family:roboto, Arial;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:25px;" target="_blank"
+                 href="mailto:georgeritas12@gmail.com?subject=Booking Enquiry" style="display:inline-block;width:220px;background:#FF385C;color:white;font-family:roboto, Arial;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:25px;" target="_blank"
               >
-                georgeritas12@gmail.com <span style="font-size:20px;vertical-align:middle;">🠮</span>
+                georgeritas12@gmail.com
               </a>
             </td>
           </tr>
@@ -739,7 +785,7 @@
         >
           
       <img
-         alt="" height="auto" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/306453125.jpg?k=386c3caa4329d7ad63d059dd70607d9f7afbe28adc24b402e866813be0c4aa31&o=&hp=1" style="border:2px solid white;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="556"
+         alt="Ritas Amenities Gennadi" height="auto" src="https://noelind.github.io/airbnb-email/assets/gennadi-house.jpg" style="border:2px solid white;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="556"
       />
     
         </a>
@@ -781,7 +827,7 @@
         >
           
       <img
-         alt="" height="auto" src="https://a0.muscache.com/im/pictures/dda14408-75a7-4fa1-a5ac-252d1a752a3e.jpg?im_w=1440" style="border:2px solid white;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="556"
+         alt="Ritas Amenities Modern City House" height="auto" src="https://noelind.github.io/airbnb-email/assets/rodos-house.jpg" style="border:2px solid white;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="556"
       />
     
         </a>
@@ -881,7 +927,7 @@
         >
           
       <img
-         alt="" height="auto" src="https://noelind.github.io/airbnb-email/assets/airbnb-og.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="127"
+         alt="Ritas Amenities Airbnb" height="auto" src="https://noelind.github.io/airbnb-email/assets/airbnb-og.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="127"
       />
     
         </a>
@@ -939,7 +985,7 @@
         >
           
       <img
-         alt="" height="auto" src="https://noelind.github.io/airbnb-email/assets/booking.com-og.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="168"
+         alt="Ritas Amenities Booking.com" height="auto" src="https://noelind.github.io/airbnb-email/assets/booking.com-og.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="168"
       />
     
         </a>
