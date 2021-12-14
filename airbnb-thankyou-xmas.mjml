@@ -42,7 +42,7 @@
     <mj-hero background-url="https://noelind.github.io/airbnb-email/assets/xmas-hero-ritas3.png" background-color="#074009">
 
       <mj-text mj-class="body" color="#ffffff" align="center" font-size="35px" line-height="150px" font-weight="500">
-        <br><img src="https://raw.githubusercontent.com/Noelind/airbnb-email/main/assets/ritas-amenities-logo-white-140.png" alt="">
+        <br><img src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-white-140.png" alt="Ritas Amenities">
       </mj-text>
       <mj-text mj-class="body" color="#ffffff" align="left" font-size="35px" font-weight="500">
         Dear [Guest Name],
@@ -86,9 +86,9 @@
 
     <mj-section mj-class="body">
       <mj-column padding="0px 0px 20px 0px">
-        <mj-image href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/306453125.jpg?k=386c3caa4329d7ad63d059dd70607d9f7afbe28adc24b402e866813be0c4aa31&o=&hp=1" alt="" />
+        <mj-image href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://noelind.github.io/airbnb-email/assets/gennadi-house.jpg" alt="Ritas Amenities Gennadi" />
         <mj-text padding="0px 0px 20px 0px" font-style="italic" color="white" align="center" font-size="16px">Ritas Amenities Gennadi</mj-text>
-        <mj-image href="https://www.airbnb.com/users/show/108284092and" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://a0.muscache.com/im/pictures/dda14408-75a7-4fa1-a5ac-252d1a752a3e.jpg?im_w=1440" alt="" />
+        <mj-image href="https://www.airbnb.com/users/show/108284092and" target="_blank" border-radius="15px" border="2px solid white" padding="0px 0px 20px 0px" src="https://noelind.github.io/airbnb-email/assets/rodos-house.jpg" alt="Ritas Amenities Modern City House" />
         <mj-text padding="0px 0px 20px 0px" font-style="italic" color="white" align="center" font-size="16px">Ritas Amenities Modern City House</mj-text>
       </mj-column>
 
@@ -96,10 +96,10 @@
 
     <mj-section>
       <mj-column vertical-align="middle" padding-bottom="40px">
-        <mj-image width="127px" src="https://noelind.github.io/airbnb-email/assets/airbnb.png" alt="" href="https://www.airbnb.com/users/show/108284092and" />
+        <mj-image width="127px" src="https://noelind.github.io/airbnb-email/assets/airbnb.png" alt="Ritas Amenities Airbnb" href="https://www.airbnb.com/users/show/108284092and" />
       </mj-column>
       <mj-column vertical-align="middle" padding-bottom="40px">
-        <mj-image width="168px" src="https://noelind.github.io/airbnb-email/assets/booking.com.png" alt="" href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" />
+        <mj-image width="168px" src="https://noelind.github.io/airbnb-email/assets/booking.com.png" alt="Ritas Amenities Booking.com" href="https://www.booking.com/hotel/gr/ritas-gennadi-villa.html" />
       </mj-column>
     </mj-section>
   </mj-body>
