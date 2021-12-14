@@ -28,26 +28,6 @@
         color: #ffffff !important;
         font-size: 1px !important;
       }
-
-      @media (prefers-color-scheme: dark) {
-        .logo-white {
-          display:block;
-        }
-
-        .logo-black {
-          display:none;
-        }
-      }
-
-      @media (prefers-color-scheme: light) {
-        .logo-white {
-          display:none;
-        }
-
-        .logo-black {
-          display:block;
-        }
-      }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -60,9 +40,7 @@
       <mj-group>
 
         <mj-column vertical-align="middle" width="50%">
-          <mj-image css-class="logo-black" align="left" width="141px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-140.png" alt="Ritas Amenities Logo" />
-          </mj-image>
-          <mj-image css-class="logo-white" align="left" width="141px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-140.png" alt="Ritas Amenities Logo" />
+          <mj-image align="left" width="141px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-stroke-140.png" alt="Ritas Amenities Logo" />
           </mj-image>
         </mj-column>
         <mj-column vertical-align="middle">
