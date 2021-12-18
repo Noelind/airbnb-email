@@ -8,7 +8,7 @@
     <mj-font name="roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" />
     <mj-breakpoint width="590px" />
     <mj-attributes>
-      <mj-all padding="0" />
+      <mj-all padding="0" background-color="black" />
       <mj-body background-color="white" />
       <mj-text padding="0" />
       <mj-button border-radius="0" />
@@ -39,8 +39,8 @@
     <mj-section padding="20px 20px">
       <mj-group>
 
-        <mj-column vertical-align="middle" width="50%">
-          <mj-image align="left" width="141px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-stroke-140.png" alt="Ritas Amenities Logo" />
+        <mj-column vertical-align="middle" width="50%" >
+          <mj-image align="left" width="141px" src="https://noelind.github.io/airbnb-email/assets/ritas-amenities-logo-black-stroke3-140.png" alt="Ritas Amenities Logo" />
           </mj-image>
         </mj-column>
         <mj-column vertical-align="middle">
